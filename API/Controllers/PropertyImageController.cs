@@ -1,5 +1,5 @@
 ﻿using Application.PropertyImage.Command;
-using Application.Security;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;

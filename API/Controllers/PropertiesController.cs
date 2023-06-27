@@ -3,7 +3,7 @@ using Application.Dto;
 using Application.Property.Commands.CreateProperty;
 using Application.Property.Commands.UpdateProperty;
 using Application.Property.Queries;
-using Application.Security;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
